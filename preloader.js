@@ -1,5 +1,5 @@
 angular
-    .module('core')
+    .module('image-preloader',[])
     .factory(
             "preloader",
             function( $q, $rootScope ) {
